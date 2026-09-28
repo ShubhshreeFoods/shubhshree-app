@@ -40,6 +40,10 @@ export const Route = createFileRoute("/")({
           "Two-way batch scaling, itemized packaging costs and instant 50% profit pricing for dhokla premix SKUs.",
       },
     ],
+    links: [
+      { rel: "icon", type: "image/png", href: "/favicon.png" },
+      { rel: "apple-touch-icon", href: "/favicon.png" },
+    ],
   }),
   component: Index,
 });
